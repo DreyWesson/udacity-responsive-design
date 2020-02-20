@@ -1,0 +1,43 @@
+$side-nav-width: 230px;
+
+body, .canvas, .main-content     {
+  min-height: 100vh;
+}
+
+// the overall container
+.canvas  {
+
+}
+
+// style the side navigation
+.canvas .side-nav  {
+  position: absolute;
+  display: block;
+  width: $side-nav-width;
+  transform: translateX(-$side-nav-width);
+
+  color: #E6E9F7;
+  background-color: #253781;
+  padding-top: 20px;
+  min-height: 100%;
+
+  a       {
+    color: #EEE;
+    display: block;
+    padding: 5px 10px;
+    font-size: 0.85em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+}
+
+// main content and toggle button
+.main-content   {
+  padding: 50px;
+}
+
+.toggle-button  {
+  font-size: 3em;
+  color: #333;
+}
